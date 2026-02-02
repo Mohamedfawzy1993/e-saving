@@ -1,0 +1,39 @@
+name: money_saving_app
+description: A mobile app for managing money-saving groups
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Database
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0+2
+  sqlite3_flutter_libs: ^0.5.0
+  path: ^1.8.3
+  
+  # Authentication & Security
+  flutter_secure_storage: ^9.0.0
+  local_auth: ^2.1.6
+  crypto: ^3.0.3
+  
+  # Utilities
+  uuid: ^4.1.0
+  intl: ^0.18.1
+  
+  # UI
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
